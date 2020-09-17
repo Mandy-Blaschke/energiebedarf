@@ -1,0 +1,76 @@
+.zuviel {
+  color: red;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #886331;
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 3px 3px 3px darkgray;
+}
+
+h3 {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#neuerTagBtn {
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #886331;
+  color: whitesmoke;
+  padding: 5px;
+  margin: 15px;
+  font-size: 14px;
+  box-shadow: 3px 3px 3px darkgray;
+  font-family: 'Cinzel', serif;
+  outline: none;
+}
+
+section {
+  background-color: #eee6da;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 3px 3px 3px darkgray;
+}
+
+label {
+  display: inline-block;
+  margin-right: 15px;
+  width: 240px;
+}
+
+input {
+  width: 50px;
+  padding: 6px 3px 3px 3px;
+  box-shadow: inset 3px 3px 3px darkgray;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  color: #4f4a4a;
+  outline: none;
+
+  &:last-of-type {
+    margin-bottom: 15px;
+  }
+}
+
+
+::placeholder {
+  color: #b0acac;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: #918989;
+  box-shadow: none;
+}
